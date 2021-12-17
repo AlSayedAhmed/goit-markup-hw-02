@@ -1,5 +1,68 @@
 :root {
-  --primary-text-colour: #212121;
-  --seconday-text-colour: #ffffff;
-  --third-text-colour: #2196f3;
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --seconday-text-color: rgba(255, 255, 255, 0, 6);
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+}
+body {
+  background-color: #ffffff;
+}
+
+.site-nav a {
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+
+.site-nav .current {
+  color: var(--accent-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.logo {
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+
+.contacts a {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+.contacts a:hover,
+.contacts a:focus {
+  color: var(--accent-color);
+}
+
+.hero-title {
+  color: var(--white-color);
+}
+
+.button {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+.section h3 {
+  color: var(--title-text-color);
+}
+
+.section p {
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style-type: none;
+}
+
+.adress p {
+  color: var(--white-color);
+}
+
+.adress a {
+  color: var(--primary-text-color);
 }
