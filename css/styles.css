@@ -7,11 +7,16 @@
 }
 body {
   background-color: #ffffff;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 
 .site-nav a {
   color: var(--title-text-color);
   text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
 }
 
 .site-nav .current {
@@ -26,6 +31,11 @@ body {
 .logo {
   color: var(--title-text-color);
   text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  line-height: 1.19;
+  font-size: 26px;
+  letter-spacing: 0.03em;
 }
 
 .contacts a {
@@ -65,4 +75,11 @@ body {
 
 .adress a {
   color: var(--primary-text-color);
+}
+
+.filter button {
+  font-weight: 500;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  text-align: center;
 }
