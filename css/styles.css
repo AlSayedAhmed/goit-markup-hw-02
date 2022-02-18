@@ -4,6 +4,7 @@
   --seconday-text-color: rgba(255, 255, 255, 0, 6);
   --accent-color: #2196f3;
   --white-color: #ffffff;
+  --button-color: #f5f4fa;
 }
 body {
   background-color: #ffffff;
@@ -16,7 +17,7 @@ body {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14px;
 }
 
 .site-nav .current {
@@ -41,6 +42,10 @@ body {
 .contacts a {
   color: var(--primary-text-color);
   text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .contacts a:hover,
@@ -55,6 +60,7 @@ body {
 .button {
   color: var(--white-color);
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 
 .section h3 {
@@ -69,17 +75,55 @@ body {
   list-style-type: none;
 }
 
+.filter button {
+  font-weight: 500;
+  line-height: 1.62;
+  /* identical to box height, or 162% */
+  text-align: center;
+  background-color: var(--button-color);
+  color: (var(--title-text-color));
+}
+
+.filter button:hover,
+.filter button:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+.filter li {
+  list-style-type: none;
+}
+
+.projects h2 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+}
+
+.projects p {
+  line-height: 1.87;
+  /* identical to box height, or 187% */
+  color: var(--primary-text-color);
+}
+
+.projects li {
+  list-style-type: none;
+}
+
+address {
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  line-height: 1.7;
+  font-style: normal;
+}
+
 .adress p {
   color: var(--white-color);
 }
 
 .adress a {
   color: var(--primary-text-color);
-}
-
-.filter button {
-  font-weight: 500;
-  line-height: 26px;
-  /* identical to box height, or 162% */
-  text-align: center;
+  text-decoration: none;
 }
